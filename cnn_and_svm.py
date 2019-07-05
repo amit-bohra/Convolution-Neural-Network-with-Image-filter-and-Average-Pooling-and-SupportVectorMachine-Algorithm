@@ -2,10 +2,10 @@ import numpy as np
 from sklearn import svm
 import cv2
 from sklearn.neural_network import MLPClassifier as mp
-c1=cv2.imread(r'circle1.jpg')
-c2=cv2.imread(r'a.png')
-x1=cv2.imread(r'cross1.jpg')
-x2=cv2.imread(r'cross2.jpg')
+c1=cv2.imread(r'1st type one image') #Provide Path for 1st type 1 image
+c2=cv2.imread(r'2n Type one image') #Provide Path for 2nd type 1 image
+x1=cv2.imread(r'1st type two image') #Provide Path for 1st type 2 image
+x2=cv2.imread(r'2nd type two image') #Provide Path for 2n type 2 image
 circle1=cv2.cvtColor(c1,cv2.COLOR_BGR2GRAY)
 circle2=cv2.cvtColor(c2,cv2.COLOR_BGR2GRAY)
 cross1=cv2.cvtColor(x1,cv2.COLOR_BGR2GRAY)
